@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TodoList > renders the component 1`] = `
+"<section class=\\"p-2 container mx-auto lg:w-2/4 px-4 lg:px-0 space-y-4\\">
+  <div class=\\"flex justify-end\\"><button class=\\"border p-2 rounded-md\\"><a href=\\"/create\\" class=\\"\\">Create Task</a></button></div>
+  <div class=\\"md:space-x-4 space-x-2 flex-row flex\\"><button class=\\"border rounded-md p-1.5 md:p-2 lg:w-32 w-24 hover:bg-indigo-400 ease-in-out transition-all duration-75 bg-indigo-500\\" isactive=\\"true\\">All</button><button class=\\"border rounded-md p-1.5 md:p-2 lg:w-32 w-24 hover:bg-indigo-400 ease-in-out transition-all duration-75\\" isactive=\\"false\\">Completed</button><button class=\\"border rounded-md p-1.5 md:p-2 lg:w-32 w-24 hover:bg-indigo-400 ease-in-out transition-all duration-75\\" isactive=\\"false\\">Pending</button></div>
+  <div class=\\"flex flex-col items-center p-2\\"><img src=\\"/src/assets/emptyState.png\\" alt=\\"Imagem\\" height=\\"300\\" width=\\"300\\">
+    <p class=\\"text-lg sm:text-xl font-semibold\\">Nenhuma tarefa encontrada.</p>
+  </div>
+</section>"
+`;
