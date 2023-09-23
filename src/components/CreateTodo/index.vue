@@ -3,6 +3,7 @@ import { defineComponent } from 'vue'
 import type { TodoItemProps } from '../TodoItem/index.vue'
 import IconLeftVue from '../Icons/IconLeft.vue'
 import { useToast } from 'vue-toastification'
+import { v4 as uuidv4 } from 'uuid'
 
 export default defineComponent({
   name: 'CreateTodo',
@@ -48,7 +49,7 @@ export default defineComponent({
         const data = {
           title: this.title,
           description: this.description,
-          id: crypto.randomUUID(),
+          id: uuidv4(),
           completed: this.completed
         }
 
