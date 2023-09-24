@@ -1,42 +1,43 @@
 # todo-list
 
-This template should help get you started developing with Vue 3 in Vite.
+Este é um projeto de um aplicativo Todo List desenvolvido com Vue 3, Vite, TypeScript e Tailwind CSS. Ele oferece uma série de funcionalidades que permitem ao usuário gerenciar suas tarefas, incluindo a capacidade de criar, editar, marcar como concluídas ou desmarcar e excluir tarefas. Além disso, o aplicativo oferece funcionalidades de filtragem para visualizar todas as tarefas, tarefas pendentes ou tarefas concluídas. Todos os dados são armazenados localmente usando o LocalStorage do navegador e o controle de rotas é implementado com o Vue Router.
 
-## Recommended IDE Setup
+## Tecnologias Utilizadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- `Vue 3`
+- `Vite`
+- `TypeScript`
+- `Tailwind CSS`
+- `UUID (para geração de IDs únicos)`
+- `Vue Toastification (para exibir notificações)`
+- `Vitest e Vue Test Utils (para testes)`
 
-## Type Support for `.vue` Imports in TS
+## Como Executar o Projeto
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+Certifique-se de ter o [Node.js](https://nodejs.org/en) instalado em sua máquina.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## Instale as dependências do projeto:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Execute o aplicativo localmente:
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Para criar uma versão de produção otimizada do projeto:
 
 ```sh
 npm run build
+```
+
+### Para executar os testes, use o seguinte comando:
+
+```sh
+npm run test
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
@@ -44,3 +45,9 @@ npm run build
 ```sh
 npm run lint
 ```
+
+## Copyright
+
+Este projeto está licenciado sob a Licença MIT.
+
+Feito por Kayle ❤️
